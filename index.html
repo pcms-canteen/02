@@ -1,4 +1,13 @@
 ---
 layout: layout.html
 ---
-<p>製作中</p>
+
+<h2>熱門排行</h2>
+<ul>
+{%- for rank in collections.rank reversed -%}
+  <li>
+    <a href="{{rank.url}}">
+      {{ rank.data.title }}
+    </a>
+  </li>
+{%- endfor -%}
