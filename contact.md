@@ -1,9 +1,9 @@
 ---
 layout: layout.html
 ---
-## 聯絡我們.
+## 聯絡我們
 
-<p>我們會盡快更新</p>
+<p>我們會盡快更新σ(´∀｀*)</p>
 <style>
   #workemail {display: none;}
 </style>
