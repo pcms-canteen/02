@@ -18,4 +18,12 @@ layout: layout.html
     <input type="email" id="email" name="email">    
     <input type="email" id="workemail" name="_honey">
   </p>
+   <p>
+    <label for="content">Content:</label>
+    <textarea name="content" id="content"></textarea>
+  </p>
+  <input type="hidden" name="_next" value="https://demo-20200516.netlify.app/thanks">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="submit" value="Send Form">
+</form>
   
