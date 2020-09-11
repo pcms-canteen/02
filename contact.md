@@ -3,7 +3,7 @@ layout: layout.html
 ---
 ## 聯絡我們
 
-<p>我們會盡快更新σ(´∀｀*)</p>
+<p>我們會盡快更新 <b>σ(´∀｀*)##</b> </p>
 <style>
   #workemail {display: none;}
 </style>
