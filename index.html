@@ -11,3 +11,12 @@ layout: layout.html
     </a>
   </li>
 {%- endfor -%}
+<h2>評分排行</h2>
+<ul>
+{%- for score in collections.rank reversed -%}
+  <li>
+    <a href="{{score.url}}">
+      {{ score.data.title }}
+    </a>
+  </li>
+{%- endfor -%}
