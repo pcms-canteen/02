@@ -22,3 +22,13 @@ layout: layout.html
   </li>
 {%- endfor -%}
   </ul>
+<h2>所有餐廳(近至遠)</h2>
+<ul>
+{%- for all in collections.all reversed -%}
+  <li>
+    <a href="{{all.url}}">
+      {{ all.data.title }}
+    </a>
+  </li>
+{%- endfor -%}
+  </ul>
