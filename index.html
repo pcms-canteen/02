@@ -24,10 +24,10 @@ layout: layout.html
   </ul>
 <h2>所有餐廳(近至遠)</h2>
 <ul>
-{%- for all in collections.all reversed -%}
+{%- for all-canteen in collections.all-canteen reversed -%}
   <li>
     <a href="{{all.url}}">
-      {{ all.data.title }}
+      {{ all-canteen.data.title }}
     </a>
   </li>
 {%- endfor -%}
